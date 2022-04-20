@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnSave">Save</string>
+    <string name="btnEnd">Cancel</string>
+    <string name="signin">SIGN IN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnDownloadData">Download Data</string>
+    <string name="cs_MAexist">might be already exist</string>
+    <string name="newPassword" translatable="false">New Password</string>
+    <string name="confirmPassword" translatable="false">Confirm Password</string>
+    <string name="btnResetPassword" translatable="false">Reset Password</string>
+
+    <string name="netwrok">Network connection not available!</string>
+    <string name="invalidpass">Invalid Password</string>
+    <string name="unameRequired">Username is required.</string>
+    <string name="incorrcetPass">Incorrect Password</string>
+    <string name="downData">Download Data</string>
+    <string name="permission">Permissions Required</string>
+    <string name="warning">Warning</string>
+    <string name="newApp">New App downloaded!!</string>
+    <string name="appVer">App New Version</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="appDownload">appDownload</string>
+    <string name="newVer">New Version</string>
+    <string name="downloading">Downloading</string>
+    <string name="available">Available</string>
+    <string name="downError">Cant download.. Internet connectivity issue!</string>
+    <string name="backBtn">Press Back again to Exit</string>
+    <string name="noNetwork">No network connection available!</string>
+    <string name="appAvailable">APP is available!</string>
+    <string name="oldAppMsg">App Ver." + " is now available. Your are currently using older Ver."</string>
+    <string name="installNewApp">Install new version to use this app</string>
+    <string name="install">Install</string>
+    <string name="cancel">Cancel</string>
+    <string name="complete">complete</string>
+    <string name="updatingError">Error in updating db!!</string>
+    <string name="updateDbError1">"Sorry. You can't go further."</string>
+    <string name="updateDbError2">"Please contact IT Team (Failed to update DB)"</string>
+    <string name="bckBtn">You Cant go back</string>
+    <string name="processing">Processing</string>
+    <string name="confirmation">Confirmation!</string>
+    <string name="cntBtn">Are you sure, you want to continue - interview</string>
+    <string name="failedUpdateDb">SORRY! Failed to update DB</string>
+    <string name="invalidDate">Invalid date!</string>
+
+    <string name="istatus">Result of Household Questionnaire interview</string>
+    <string name="istatusa">Completed</string>
+    <string name="istatusb">No household member at home or no competent respondent at home at time of visit</string>
+    <string name="istatusc">Entire household absent for extended period</string>
+    <string name="istatusd">Refused</string>
+    <string name="istatuse">Dwelling vacant or address not a dwelling</string>
+    <string name="istatusf">Dwelling not found</string>
+    <string name="istatus96">Other (specify)</string>
+
+    <string name="linelistingform_mainheading">لائن لسٹنگ فارم: -</string>
+    <string name="app_name">Naunehal Endline Linelisting</string>
+    <string name="start_line_listing">Start Line Listing</string>
+    <string name="btnSync">Download Data</string>
+    <string name="btnUpload">Upload Data</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="splashText"> </string>
+    <string name="splashText2"> </string>
+    <string name="check_pending_forms">CHECK PENDING FORMS</string>
+    <string name="open_new_form">OPEN NEW FORM</string>
+    <string name="records_summary">Records Summary</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="only_for_testing">ONLY FOR TESTING</string>
+    <string name="database">Database</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+
+    <string name="clusteridentification_mainheading">Cluster Identification: Verify the accuracy of the PSU by reading the information about the PSU that appears on the tablet after entering PSU number</string>
+
+    <string name="no"> نہیں </string>
+    <string name="dkn"> معلوم نہیں </string>
+    <string name="none"> کوئی نہیں </string>
+    <string name="never"> کبھی نہیں </string>
+    <string name="na"> قابل اطلاق / دستیاب نہیں </string>
+    <string name="nap"> قابل اطلاق نہیں </string>
+    <string name="nav"> دستیاب نہیں </string>
+    <string name="ref"> انکار کر دیا </string>
+    <string name="other"> دیگر </string>
+    <string name="specify"> وضاحت کریں </string>
+    <string name="year"> سال </string>
+    <string name="month"> مہینہ </string>
+    <string name="weeks"> ہفتے </string>
+    <string name="days"> دن </string>
+    <string name="hours"> گھنٹے </string>
+    <string name="minutes"> منٹ </string>
+    <string name="kg"> کلوگرام </string>
+    <string name="km"> کلومیٹر </string>
+    <string name="cm"> سینٹی میٹر </string>
+    <string name="in"> انچ </string>
+    <string name="rupees"> روپے </string>
+    <string name="num"> اعداد </string>
+    <string name="name"> نام </string>
+    <string name="contactnum"> رابطہ نمبر </string>
+    <string name="checkHHpresent"> گھر کے سربراہ کا نام لائن لسٹنگ ڈیٹا سے مطابقت رکھتا ہے۔ </string>
+    <string name="newHHheadname"> نیا سربراہ کا نام </string>
+    <string name="listitle">گندم کی بایوفورٹیفکیشن اور گندم کے آٹے کی فورٹیفکیشن کا سروے</string>
+
+    <string name="hh01">کلسٹر/بلاک نمبر</string>
+    <string name="hh02">پی ایس یو کی شناختی تصدیق</string>
+    <string name="hh021">کیا آپ اوپر دئیے گئے شہر/گاؤں میں موجود ہیں؟</string>
+    <string name="hh03">کیا یہ پہلا ٹیبلیٹ ہے جو اس پی ایس یو کی لائن لسٹنگ کے لئے استعمال ہو رہا ہے؟</string>
+    <string name="hh031">ہاں</string>
+    <string name="hh032">نہیں</string>
+    <string name="hh01a">ڈسٹرکٹ کوڈ</string>
+    <string name="hh01b">ٹاؤن/تعلقہ کوڈ</string>
+    <string name="hh01c"> علاقہ/گاؤں کا کوڈ  </string>
+    <string name="hh07"> تعمیراتی ساخت </string>
+    <string name="hh0701"> رہائشی</string>
+    <string name="hh0702">گندم کے آٹے کی چکی (رسمی) </string>
+    <string name="hh0703">گندم کے آٹے کی چکی (غیررسمی) </string>
+    <string name="hh0704">گندم کے آٹے کا مل (فلورمل)</string>
+    <string name="hh0705">گندم کے آٹے کی دکان (تھوک فروش)</string>
+    <string name="hh0706">گندم کے آٹے کی دکان (خوردہ فروش)</string>
+    <string name="hh0707">نان شاپ</string>
+    <string name="hh0708">فوڈ ریستوران</string>
+    <string name="hh0709">بیکری</string>
+    <string name="hh0710">گندم کے اناج کی دکان (خرید و فروخت)</string>
+    <string name="hh0711">بیج/کھاد سپلائر</string>
+    <string name="hh0712">دکان/مارکیٹ/تجارتی پلازہ</string>
+    <string name="hh0713">مسجد/چرچ/مندر</string>
+    <string name="hh0714">سکول/کالج/یونیورسٹی </string>
+    <string name="hh0715">صحت کی سہولت</string>
+    <string name="hh0716">زیر تعمیرعمارت</string>
+    <string name="hh0717">دیگر (وضاحت کریں)</string>
+    <string name="hh0718">لسٹنگ عارضی طورپربند کریں</string>
+    <string name="hh0719">لائن لسٹنگ مکمل (مزید عمارت نہیں</string>
+    <string name="hh08">کیا یہ جگہ رہائشی مقصد کے لئے استعمال کی جا رہی ہے</string>
+    <string name="hh08a">ہاں</string>
+    <string name="hh08b">نہیں</string>
+    <string name="hh09">کیا اس عمارت میں ایک سے ذیادہ خاندان رہائش پزیر ہیں</string>
+    <string name="hh0801">ہاں </string>
+    <string name="hh0802">نہیں</string>
+    <string name="hh10">اگر ہاں، تواس عمارت میں رہنے والے گھرانوں کی کل تعداد کتنی ہے؟</string>
+    <string name="hh11">گھرانے کے سربراہ کا نام؟</string>
+
+    <string name="hh12">بشمول بچوں کے گھر میں رہنے والے افراد کی تعداد</string>
+    <string name="hh13">کیا اس گھر میں پانچ سال سے کم عمر کے بچے ہیں؟</string>
+    <string name="hh1301">ہاں </string>
+    <string name="hh1302">نہیں</string>
+    <string name="hh13a">پانچ سال سے کم عمر بچوں کی تعداد</string>
+    <string name="hh13a_info">) تولیدی عمر کی خاتون (ماں) کا نام اور بچوں کی تعداد کو اس تعداد کے مطابق دہرایا جائے گا(</string>
+    <string name="hh14">کیا اس گھر میں 12سے 23 مہینے کے بچے ہیں؟</string>
+    <string name="hh1401">ہاں</string>
+    <string name="hh1402">نہیں</string>
+    <string name="hh14a">اگر ہاں، تو 12سے23 مہینے کی عمر کے بچوں کی تعداد بتائیں</string>
+    <string name="hh15"> کیا اس گھر میں مذید کوئی خاندان رہائش پزیر ہے </string>
+
+    <string name="hh16">18 سال یا اس سے زیادہ کی تولیدی عمر کی خاتون (ماں) کا نام؟</string>
+    <string name="hh16_info">(یہ دیگر تولیدی عمر کی خواتین (ماں) کے لیے دہرایا جائے گا)</string>
+    <string name="hh17">تولیدی عمر کی خاتون (ماں) کے (6 ماہ سے لیکر 5 سال سے کم عمر) بچوں کی تعداد؟</string>
+    <string name="hh17_info">( HH17 تا HH19 کو ہر تولیدی عمر کی خاتون (ماں) کے لیے دہرایا جائے گا(</string>
+    <string name="hh18">تولیدی عمر کی خاتون (ماں) کے (5 سال سے لیکر 10 سال سے کم عمر) بچوں کی تعداد؟</string>
+    <string name="hh19">تولیدی عمر کی خاتون (ماں) کے (10 سال سے لیکر 18 سال سے کم عمر) بچوں کی تعداد؟</string>
+
+    <string name='Q_hh01'>hh01</string>
+    <string name='Q_hh02'>hh02</string>
+    <string name='Q_hh03'>hh03</string>
+    <string name='Q_hh04'>hh04</string>
+    <string name='Q_hh05'>hh05</string>
+    <string name='Q_hh06'>hh06</string>
+    <string name='Q_hh07'>hh07</string>
+    <string name='Q_hh08'>hh08</string>
+    <string name='Q_hh09'>hh09</string>
+    <string name='Q_hh10'>hh10</string>
+    <string name='Q_hh11'>hh11</string>
+    <string name='Q_hh14'>hh14</string>
+    <string name='Q_hh14a'>hh14a</string>
+    <string name='Q_hh15'>hh15</string>
+    <string name='Q_hh12'>hh12</string>
+    <string name='Q_hh13'>hh13</string>
+    <string name='Q_hh13a'>hh13a</string>
+    <string name='Q_hh16'>hh16</string>
+    <string name='Q_hh17'>hh17</string>
+    <string name='Q_hh18'>hh18</string>
+    <string name='Q_hh19'>hh19</string>
+    <string name='Q_listitle'>listitle</string>
+
+    <string name='Q_hh02a'>hh02a</string>
+    <string name='Q_hh02b'>hh02b</string>
+    <string name='Q_hh02c'>hh02c</string>
+    <string name='Q_isnewhh'>isnewhh</string>
+
+
+    <string name="action_database">Database Manager</string>
+    <string name="action_data_sync">Sync Data</string>
+
+    <string name="open_listing_form">START HOUSEHOLD LISTING</string>
+
+
+    <string name='Q_istatus'>istatus</string>
+    <string name="btnDownload">Download Data</string>
+    <string name="folder_not_created">Folder Not Created</string>
+    <string name="network_conn_error">Network Connection Error</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="username_required">Username Required</string>
+    <string name="incorrect_username_or_password">Incorrect Username Or Password</string>
+    <string name="options" translatable="false">Options</string>
+    <string name="actiondatabase" translatable="false">Database Manager</string>
+
+    <!--Error Messages-->
+    <string name="upd_db_form" translatable="false"> updateDB(Listings):\t </string>
+    <string name="upd_db_food_consumption" translatable="false"> updateDB(FoodConsumption):\t </string>
+    <string name="upd_db_error" translatable="false"> Updating Database… ERROR! </string>
+    <string name="db_excp_error" translatable="false"> Database Exception... ERROR! </string>
+    <string name="upd_db" translatable="false"> Updating Database...\t </string>
+    <string name="fail_db_upd" translatable="false"> Failed to Update Database! </string>
+    <string name="backPress" translatable="false"> Back Press Not Allowed </string>
+    <string name="invalid_response" translatable="false"> Invalid Response </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
