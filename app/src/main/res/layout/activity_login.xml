@@ -52,7 +52,7 @@
                     android:layout_height="180dp"
                     android:layout_gravity="center"
                     android:paddingTop="24dp"
-                    android:src="@drawable/naunehal_endline" />
+                    android:src="@drawable/app_icon" />
 
                 <TextView
                     android:layout_width="match_parent"
