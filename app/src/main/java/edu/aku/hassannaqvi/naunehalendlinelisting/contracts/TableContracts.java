@@ -81,8 +81,7 @@ public class TableContracts {
         public static final String COLUMN_ID = "_id";
         public static final String COLUMN_DIST_ID = "dist_id";
         public static final String COLUMN_GEOAREA = "geoarea";
-        public static final String COLUMN_EB_CODE = "ebcode";
-
+        public static final String COLUMN_CLUSTER_CODE = "clusterCode";
     }
 
     public static abstract class EntryLogTable implements BaseColumns {

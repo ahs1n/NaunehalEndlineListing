@@ -34,7 +34,7 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:allowBackup">
         <activity
-            android:name="edu.aku.hassannaqvi.naunehalendlinelisting.ui.LoginActivity"
+            android:name=".ui.LoginActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.splashscreen"

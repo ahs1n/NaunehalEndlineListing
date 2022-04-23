@@ -74,7 +74,7 @@ public class SectionBActivity extends AppCompatActivity {
         }
 */
 
-        bi.hhid.setText("TPV-" + MainApp.listings.getHh01() + "\n" + MainApp.selectedTab + "-" + String.format("%04d", maxStructure));
+        bi.hhid.setText(MainApp.listings.getHh01() + "\n" + MainApp.selectedTab + "-" + String.format("%04d", maxStructure));
         Toast.makeText(this, "Staring Structure", Toast.LENGTH_SHORT).show();
 
     }
@@ -126,7 +126,7 @@ public class SectionBActivity extends AppCompatActivity {
 
             if (updCount > 0) {
 
-                editor.putString(selectedCluster.getEbcode(), maxStructure + "|" + listings.getTabNo());
+                editor.putString(selectedCluster.getClusterCode(), maxStructure + "|" + listings.getTabNo());
                 editor.apply();
 
                 return true;

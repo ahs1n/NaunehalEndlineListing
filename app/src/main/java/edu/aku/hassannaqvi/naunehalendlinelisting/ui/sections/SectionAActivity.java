@@ -66,7 +66,7 @@ public class SectionAActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                if (charSequence.length() == 9) {
+                if (charSequence.length() == 6) {
                     bi.searchEB.setBackgroundColor(getResources().getColor(R.color.greenLight));
                     bi.searchEB.setEnabled(true);
                 } else {
@@ -96,7 +96,7 @@ public class SectionAActivity extends AppCompatActivity {
         });
 
         bi.hh02.setOnCheckedChangeListener((compoundButton, b) -> {
-            if (!selectedCluster.getEbcode().equals("") && b) {
+            if (!selectedCluster.getClusterCode().equals("") && b) {
                 bi.openForm.setEnabled(true);
                 bi.openForm.setVisibility(View.VISIBLE);
 
@@ -119,7 +119,7 @@ public class SectionAActivity extends AppCompatActivity {
         tehsilNames = new ArrayList<>();
         cityNames = new ArrayList<>();
         for (Cluster c : clustersList) {
-            ebCode.add(c.getEbcode());
+            ebCode.add(c.getClusterCode());
             String[] geoArea = c.getGeoarea().split("\\|");
             districtNames.add(geoArea[1]);
             tehsilNames.add(geoArea[2]);
@@ -237,15 +237,15 @@ public class SectionAActivity extends AppCompatActivity {
         bi.fldGrpCVhh03.setVisibility(View.GONE);
 
         Cluster testEb = new Cluster();
-        testEb.setEbcode("909090909");
+        testEb.setClusterCode("909090909");
         testEb.setGeoarea("|Test District|Test Tehsil|Test City");
 
-        if (!bi.hh01.getText().toString().equals(testEb.getEbcode())) {
+        if (!bi.hh01.getText().toString().equals(testEb.getClusterCode())) {
             selectedCluster = db.getClusters(bi.hh01.getText().toString());
 
             if (selectedCluster != null) {
                 listings.setGeoArea(selectedCluster.getGeoarea());
-                MainApp.clusterInfo = sharedPref.getString(selectedCluster.getEbcode(), "0|0").split("\\|");
+                MainApp.clusterInfo = sharedPref.getString(selectedCluster.getClusterCode(), "0|0").split("\\|");
                 MainApp.maxStructure = Integer.parseInt(MainApp.clusterInfo[0]);
 
 

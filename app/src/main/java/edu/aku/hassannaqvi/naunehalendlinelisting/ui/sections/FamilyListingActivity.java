@@ -66,7 +66,7 @@ public class FamilyListingActivity extends AppCompatActivity {
                 appendingChar = "B";
         }*/
 
-        bi.hhid.setText("TPV-" + MainApp.listings.getHh01() + "\n" + MainApp.selectedTab + "-" + String.format("%04d", MainApp.maxStructure) + "-" + String.format("%03d", MainApp.hhid));
+        bi.hhid.setText(MainApp.listings.getHh01() + "\n" + MainApp.selectedTab + "-" + String.format("%04d", MainApp.maxStructure) + "-" + String.format("%03d", MainApp.hhid));
         Toast.makeText(this, "Staring Household", Toast.LENGTH_SHORT).show();
 
         bi.hh1301.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {

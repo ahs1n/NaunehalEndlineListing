@@ -52,7 +52,7 @@
                     android:background="@color/redLight"
                     android:fontFamily="@font/allerta_stencil"
                     android:gravity="center"
-                    android:text="901010101-0234-001"
+                    android:text="901101-0234-001"
                     android:textColor="@color/white"
                     android:textSize="56sp"
                     android:textStyle="bold" />
@@ -262,8 +262,7 @@
                 <!-- hh14  Radio   -->
                 <androidx.cardview.widget.CardView
                     android:id="@+id/fldGrpCVhh14"
-                    style="@style/cardView"
-                    android:visibility="@{listings.hh13.equals(`1`) ? View.VISIBLE : View.GONE}">
+                    style="@style/cardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"

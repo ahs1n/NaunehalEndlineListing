@@ -13,8 +13,7 @@ class Cluster {
     var ID: Long = 0
     var geoarea: String = _EMPTY_
     var distId: String = _EMPTY_
-    var ebcode: String = _EMPTY_
-
+    var clusterCode: String = _EMPTY_
 
     constructor() {
         // Default Constructor
@@ -24,8 +23,7 @@ class Cluster {
     fun sync(jsonObject: JSONObject): Cluster {
         geoarea = jsonObject.getString(ClusterTable.COLUMN_GEOAREA)
         distId = jsonObject.getString(ClusterTable.COLUMN_DIST_ID)
-        ebcode = jsonObject.getString(ClusterTable.COLUMN_EB_CODE)
-
+        clusterCode = jsonObject.getString(ClusterTable.COLUMN_CLUSTER_CODE)
 
         return this
     }
@@ -35,8 +33,8 @@ class Cluster {
 
         geoarea = cursor.getString(cursor.getColumnIndexOrThrow(ClusterTable.COLUMN_GEOAREA))
         distId = cursor.getString(cursor.getColumnIndexOrThrow(ClusterTable.COLUMN_DIST_ID))
-        ebcode = cursor.getString(cursor.getColumnIndexOrThrow(ClusterTable.COLUMN_EB_CODE))
-
+        clusterCode =
+            cursor.getString(cursor.getColumnIndexOrThrow(ClusterTable.COLUMN_CLUSTER_CODE))
 
         return this
     }

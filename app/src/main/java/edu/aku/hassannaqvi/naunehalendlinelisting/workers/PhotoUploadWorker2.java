@@ -129,7 +129,7 @@ public class PhotoUploadWorker2 extends Worker {
         NotificationCompat.Builder notification = new NotificationCompat.Builder(getApplicationContext(), "simplifiedcoding")
                 .setContentTitle(title)
                 .setContentText(task)
-                .setSmallIcon(R.mipmap.ic_launcher);
+                .setSmallIcon(R.drawable.app_icon);
 
         if (curProgress >= maxProgress) {
 

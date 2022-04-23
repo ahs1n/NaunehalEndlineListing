@@ -56,7 +56,7 @@
     <string name="istatus96">Other (specify)</string>
 
     <string name="linelistingform_mainheading">لائن لسٹنگ فارم: -</string>
-    <string name="app_name">Naunehal Endline Linelisting</string>
+    <string name="app_name">Naunehal Linelisting</string>
     <string name="start_line_listing">Start Line Listing</string>
     <string name="btnSync">Download Data</string>
     <string name="btnUpload">Upload Data</string>

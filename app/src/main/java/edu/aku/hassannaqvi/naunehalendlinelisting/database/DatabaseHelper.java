@@ -543,7 +543,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
             values.put(ClusterTable.COLUMN_GEOAREA, cluster.getGeoarea());
             values.put(ClusterTable.COLUMN_DIST_ID, cluster.getDistId());
-            values.put(ClusterTable.COLUMN_EB_CODE, cluster.getEbcode());
+            values.put(ClusterTable.COLUMN_CLUSTER_CODE, cluster.getClusterCode());
             long rowID = db.insert(ClusterTable.TABLE_NAME, null, values);
             if (rowID != -1) insertCount++;
         }
@@ -838,14 +838,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Cursor c = null;
         String[] columns = null;
 
-        String whereClause = ClusterTable.COLUMN_EB_CODE + " = ?";
+        String whereClause = ClusterTable.COLUMN_CLUSTER_CODE + " = ?";
 
         String[] whereArgs = {ebCode};
 
         String groupBy = null;
         String having = null;
 
-        String orderBy = ClusterTable.COLUMN_EB_CODE + " ASC";
+        String orderBy = ClusterTable.COLUMN_CLUSTER_CODE + " ASC";
 
         Cluster e = null;
         c = db.query(
@@ -881,7 +881,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String groupBy = null;
         String having = null;
 
-        String orderBy = ClusterTable.COLUMN_EB_CODE + " ASC";
+        String orderBy = ClusterTable.COLUMN_CLUSTER_CODE + " ASC";
 
         List<Cluster> e = new ArrayList<>();
         try {
